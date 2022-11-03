@@ -1,0 +1,23 @@
+{
+  "name": "red-social-auth-micro-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "nanoid": "^2.1.11",
+    "pg": "^8.8.0",
+    "request": "^2.88.2",
+    "swagger-ui-express": "^4.5.0"
+  }
+}
