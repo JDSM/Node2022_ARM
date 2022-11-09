@@ -20,4 +20,14 @@ module.exports = {
     post: {
         port: process.env.POST_PORT || 3002,
     },
+    cacheService: {
+        host: process.env.CACHE_SRV_HOST || 'localhost',
+        port: process.env.CACHE_SRV_PORT || 3003
+    },
+    redis: {
+        host:'redis-11356.c90.us-east-1-3.ec2.cloud.redislabs.com',
+        port:11356,
+        password:'mEW702QXFQ2K2oRH20jPW3m1gcUdju0z',
+        user: 'default'
+    }
 }

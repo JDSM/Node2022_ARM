@@ -17,6 +17,7 @@
     "jsonwebtoken": "^8.5.1",
     "nanoid": "^2.1.11",
     "pg": "^8.8.0",
+    "redis": "^4.4.0",
     "request": "^2.88.2",
     "swagger-ui-express": "^4.5.0"
   }
