@@ -7,7 +7,9 @@ const pool = new Pool({
     database: config.postgres.database,
     password: config.postgres.password,
     port: config.postgres.port,
-    
+    ssl: {
+        rejectUnauthorized: false,
+    }
 })
 
 let connection
